@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 10px 0;
+  border: none;
+  background-color: red;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(243, 83, 83);
+}
+
+span {
+  cursor: pointer;
+}
